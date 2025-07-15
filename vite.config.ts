@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     port: 5173,
   },
   build: {
-    outDir: "dist/spa",
+    outDir: "dist",
   },
   base : "/",
   plugins: [react()],
